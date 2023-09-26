@@ -18,12 +18,12 @@ body {
 }
 
 .container h1 {
-    font-size: 80px;
+    font-size: 2.25em;
     margin: 0;
 }
 
 .container .line-height {
-    line-height: 90px;
+    line-height: 2.7rem;
 }
 
 span {
@@ -31,7 +31,7 @@ span {
 }
 
 .dynamic-txt {
-    font-size: 80px;
+    font-size: 2.25em;
 }
 
 button {
@@ -39,4 +39,43 @@ button {
     border: none;
     border-radius: 5px;
     color: #302020;
+}
+
+.know {
+    width: auto;
+}
+
+@media screen and (min-width: 576px) {
+    .container h1 {
+        font-size: 4em;
+    }
+
+    .dynamic-txt {
+        font-size: 4em;
+    }
+
+    .container .line-height {
+        line-height: 4.8rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .know {
+        width: 50%;
+        justify-content: end;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container h1 {
+        font-size: 4em;
+    }
+
+    .dynamic-txt {
+        font-size: 4em;
+    }
+
+    .container .line-height {
+        line-height: 4.8rem;
+    }
 }
