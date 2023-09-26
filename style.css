@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Handlee', 'Montserrat', 'open sans' ;
+}
+
+body {
+    background: #302020;
+}
+
+.container {
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.container .line-height {
+    line-height: 90px;
+}
+
+span {
+    color: #bd8f86;
+}
+
+.dynamic-txt {
+    font-size: 80px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #302020;
+}
